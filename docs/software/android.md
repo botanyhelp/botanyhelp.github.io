@@ -1,6 +1,8 @@
-# Android
+## Android
 
-Almost all of these apps are available on the Google Play Store.  About half were written in Eclipse and half in Android Studio.  Most of them have a read only embedded database, usually sqlite, with great data.  All of them run on almost every phone.  Almost every one reports zero crashes.  Most of these apps were written in a few days with simple coding and standard patterns.  Most of them have data shared under this license: 
+Learning android programming means learning java programming first.  New programmers cannot do better than Head First Java by Kathy Sierra, Bert Bates.  The very best (and very difficult) book on Java is The Java Programming Language by Arnold, Gosling and Holmes.  Bruce Eckel's Thinking in Java 4th edition provides very efficient learning.  Learning to program in Java is a steep climb that takes years before comfort sets in.  
+
+Almost all of the apps on this page are available on the Google Play Store.  About half were written in Eclipse and half in Android Studio.  Many of them have a read only embedded database, usually sqlite, with great data.  All of them run on almost every android phone.  Almost every one reports zero crashes.  Most of these apps were written in a few days with simple coding and standard patterns.  Most of them have data shared under this license: 
 
 https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution&#8211;ShareAlike_3.0_Unported_License
 
@@ -8,9 +10,9 @@ https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution&#82
 
 All of the source code is open source and available on github.  
 
-## Agemaker
+### Agemaker
 
-### Calculates age as decimal years.
+#### Calculates age as decimal years.
 
 #### Agemaker calculates age as decimal years.  Users enter a birthday and press a button to reveal the age as decimal years.  Researchers or clinicians often want to record the age, in decimal, at a given time instead of a birth date and current date.  Interface works in English or Spanish.  No data is ever recorded or transmitted by this app.  Image credit: Sarah Neff
 
@@ -18,9 +20,9 @@ All of the source code is open source and available on github.
 ![Agemaker Logo by Sarah Neff](/images/Agemaker320x480.png)
 
 
-## Aircraftcarriers
+### Aircraftcarriers
 
-### Contains facts, images and history of hundreds of carriers.
+#### Contains facts, images and history of hundreds of carriers.
 
 #### Aircraftcarriers contains facts, images and history of hundreds of aircraft carriers.  There is a page for every carrier, hundreds of images and a searchable database.
 
@@ -48,9 +50,9 @@ Putting both words into one search box will search for the exact phrase **yokoha
 Almost all text and imagery are under the license found here: en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution&#8211;ShareAlike_3.0_Unported_License
 Thanks to aircraft carrier enthusiasts everywhere and to the wiki editors who wrote the information found here.  There are errors and omissions in this data.  Get the most accurate and up to date information here en.wikipedia.org/wiki/List_of_aircraft_carriers
 
-## Civil War Generals
+### Civil War Generals
 
-### Contains history of all generals of the US Civil War.
+#### Contains history of all generals of the US Civil War.
 
 Civil War Generals contains facts and history of all generals of the US Civil War.  There is a page for every general, hundreds of images and a searchable database.  The Pictures button allows you to scroll through a long list of generals.  The three text boxes, and their triggering Search button, search the database of text associated wth every general. 
 
@@ -62,18 +64,18 @@ All thanks go to civil war enthusiasts everywhere and to the wiki editors who wr
 ![Civil War Generals Logo](/images/civilwargeneralsphone.png)
 
 
-## Deadlyrics
+### Deadlyrics
 
-### A searchable database of lyrics of many Grateful Dead songs.
+#### A searchable database of lyrics of many Grateful Dead songs.
 
 
 ![Deadlyrics Logo](/images/deadlyrics500x500.png)
 
 [youtube](https://www.youtube.com/watch?v=zWSKiJfrhwE)
 
-## Deadquotes
+### Deadquotes
 
-### Interesting and funny quotes of famous people and characters.
+#### Interesting and funny quotes of famous people and characters.
 
 Collection of quotes by or about people and characters. These are enjoyable reads.
 
@@ -81,9 +83,9 @@ Collection of quotes by or about people and characters. These are enjoyable read
 
 [youtube](https://www.youtube.com/watch?v=Vn9rlqiyMAc)
 
-## Deadshowfinder
+### Deadshowfinder
 
-### Deadshowfinder Identify which show performance your Grateful Dead tape was recorded at.
+#### Deadshowfinder Identify which show performance your Grateful Dead tape was recorded at.
 
 **FIND THE SHOW ON YOUR GRATEFUL DEAD TAPE**
 
@@ -105,9 +107,9 @@ This application works because Jerry Stratton kindly compiled and shared his dat
 
 [youtube](https://www.youtube.com/watch?v=aZ4PLrBQZBM)
 
-## Disasters Worldwide
+### Disasters Worldwide
 
-### Disasters wordwide from 1900-2008
+#### Disasters wordwide from 1900-2008
 
 A comprehensive listing of of over 17,000 disasters, natural and otherwise, from around the globe.
 
@@ -125,9 +127,9 @@ The EM-DAT database is protected by the law of 30 June 1994 on copyright and the
 
 [youtube](https://www.youtube.com/watch?v=dndl9Ro8jAU)
 
-## Female Astronauts
+### Female Astronauts
 
-### Would you go on a one-way trip to Mars if the opportunity arose?
+#### Would you go on a one-way trip to Mars if the opportunity arose?
 
 Female Astronauts lists every woman that has completed a spaceflight.  Thanks to these women, NASA and everyone that supports them.  
 
@@ -139,18 +141,20 @@ Look up.  She is flying!
 
 ![Female Astronauts Logo](/images/valentina_tereshkova_big.png)
 
-## Fighterjets
+<a name="Fighterjets"></a>
+### Fighterjets
 
-### Four fighter aircraft made their first flight in 1913.
+#### Four fighter aircraft made their first flight in 1913.
 
 Fighterjets contains facts and history of hundreds of fighter aircraft.  There is a page for every fighter, dozens of images and a searchable database.  Searching without any search terms will cause you to be visited by an aircraft that you would rather not encounter.  Almost all text and imagery are under the license found here: en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License  Thanks to fighter aircraft mechanics, engineers, pilots, scientists, wikipedia editors and fighter enthusiasts everywhere.
 
 
 ![Fighterjets Logo](/images/fighterjets.png)
 
-## Fixwdc
+<a name="Fixwdc"></a>
+### Fixwdc
 
-### Fixwdc allows you to make and view requests made to any representative in the US
+#### Fixwdc allows you to make and view requests made to any representative in the US
 
 The purpose of Fixwdc is to make representation across America better.  Fixwdc allows you to make and view requests made to any representative in the United States.  Every representative can monitor requests made to their district.  If you click on the Make a Request button, after selecting a district, you will be able to enter and send your request.  The Favorite button will then remember this district so that you can quickly return to the Request page for that district.  Requests may be up to 500 characters.  If you have more to write, you can make multiple requests, part 1, part 2, etc.  The 500 character limit helps to make the requests searchable.  Anyone, including representatives, can see requests for any district on the web.  For example, requests made to Oklahoma_4th_district can be viewed at:
 
@@ -168,17 +172,17 @@ Have fun and be nice.
 ![Fixwdc Logo](/images/fixwdc_phone.png)
 
 
-## Laotzutaotehking
+### Laotzutaotehking
 
-### Lao Tzu Tao Te Ching in Chinese and English
+#### Lao Tzu Tao Te Ching in Chinese and English
 
 Lao Tzu Tao Te Ching in Chinese and English.  All 81 verses in chinese and in English as translated long ago by James Legge. Do enjoy Laozi, Lao-Tzu, Lao-Tze. The text is public domain via Gutenberg.  The image is from wikipedia via the license found here http://creativecommons.org/licenses/by-sa/3.0/
 
 ![Laotzutaotehking Logo](/images/laotzuphone1.png)
 
-## Nuclides
+### Nuclides
 
-### Now you do know the binding energy of actinium 218.
+#### Now you do know the binding energy of actinium 218.
 
 Nuclides, nuclear data, isotopes.  Data about every element and every isotope.
 
@@ -206,25 +210,25 @@ Naturally occurring isotopes are shown in green.
 
 Other isotopes are shown below in red.
 
-## Record Labels
+### Record Labels
 
-### Record Labels searchable database.
+#### Record Labels searchable database.
 
 ![Record Labels Logo](/images/Recordlabelsscreenshot.png)
 
 [youtube](https://www.youtube.com/watch?v=Eq3At6hfc-M)
 
-## Scottishwhiskydistilleries
+### Scottishwhiskydistilleries
 
-### Facts, history, pictures and locations of scottish whisky distilleries.
+#### Facts, history, pictures and locations of scottish whisky distilleries.
 
 ![Scottishwhiskydistilleries Logo](/images/scottishwhiskydistilleries_phone.png)
 
 Search for information about dozens of Scottish whisky distilleries.  The location of almost every Scottish distillery is available via Google Maps.  This app will take you directly to the distillery.  Almost all text and imagery are produced by Wikipedia editors and shared under the license found here: en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution&#8211;ShareAlike_3.0_Unported_License
 
-## Shuttle Flights
+### Shuttle Flights
 
-### NASA missions flown by space shuttles launched between 1981 and 2011. Shows data for all missions flown by space shuttles launched between 1981 and 2011.
+#### NASA missions flown by space shuttles launched between 1981 and 2011. Shows data for all missions flown by space shuttles launched between 1981 and 2011.
 
 **Thanks to**
 NASA, Lockheed, Martin Marietta, Rockwell, Wikipedia, US Air Force, Astronauts 
@@ -237,8 +241,8 @@ http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-Shar
 
 [youtube](https://www.youtube.com/watch?v=7hxma0XimyQ)
 
-## Wwozplaylists
+### Wwozplaylists
 
-### This app is no longer available.  To make a donation to WWOZ 90.7 FM by phone, call **1 877 907 6999**.  Get Brass Passes, become a member, or find another way to support WWOZ at **www.wwoz.org**
+#### This app is no longer available.  To make a donation to WWOZ 90.7 FM by phone, call **1 877 907 6999**.  Get Brass Passes, become a member, or find another way to support WWOZ at **www.wwoz.org**
 
 [youtube](https://www.youtube.com/watch?v=ZUJ9HGUVyxE)

@@ -1,6 +1,6 @@
-# Certificates
+## Certificates
 
-Enrolled in and completed these ten online courses during 2015 and 2016.  Super-Earths and Life was presented by **Dimitar Sasselov, Professor of Astronomy, Harvard University**.  The other nine are biostatistics courses presented by **Rafael Irizarry, Professor of Biostatistics, Harvard T.H. Chan School of Public Health**.  
+Enrolled in and completed these ten online courses during 2015 and 2016.  Super-Earths and Life was presented by **Dimitar Sasselov, Professor of Astronomy, Harvard University**.  The other nine were presented by **Rafael Irizarry, Professor of Biostatistics, Harvard T.H. Chan School of Public Health**.  These courses cover R programming, statistics and biology.
 
 * PH525.1x: Statistics and R for the Life Sciences
 
@@ -30,7 +30,7 @@ I am speechless and on my knees with gratitude for these courses and the scienti
 
 [github.com/genomicsclass](https://github.com/genomicsclass)
 
-I completed 8 of these courses on time and with scores high enough to earn a certificate.  For two classes, ChIP-seq data analysis and DNA methylation data analysis, scores were too low to earn a certificate.  Links to certificates and detailed information of performance are shown below for all ten completed courses.  I presently continue to pursue knowledge and skills in these deep waters of statistics, biology, data analysis and R programming. 
+I completed 8 of these courses on time and with scores high enough to earn a certificate.  For two classes, ChIP-seq data analysis and DNA methylation data analysis, scores were too low to earn a certificate.  Links to certificates and detailed information of performance are shown below for all ten completed courses.  I am presently continuing to pursue knowledge and skills in these deep waters of statistics, biology, data analysis and R programming. 
 
 
 [PH525.1x: Statistics and R for the Life Sciences](/images/PH525_1xProgressedX_1.pdf)
