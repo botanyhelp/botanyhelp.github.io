@@ -254,6 +254,8 @@
     
         <li class="main active"><a href="#r">R</a></li>
         
+            <li><a href="#rufosightings-r-package">Rufosightings R package</a></li>
+        
     
     </ul>
 </div></div>
@@ -270,7 +272,42 @@
 <p><a href="https://www.edx.org/course/data-analysis-life-sciences-1-statistics-harvardx-ph525-1x">https://www.edx.org/course/data-analysis-life-sciences-1-statistics-harvardx-ph525-1x</a></p>
 <p><a href="https://leanpub.com/dataanalysisforthelifesciences">https://leanpub.com/dataanalysisforthelifesciences</a></p>
 <p>If you drown through these courses you will get some credentials like these to show off to your mom:</p>
-<p><a href="../../experience/certificates/">R biostatistics training</a></p></div>
+<p><a href="../../experience/certificates/">R biostatistics training</a></p>
+<h3 id="rufosightings-r-package">Rufosightings R package</h3>
+<p>Install it like this: </p>
+<pre><code class="r">library(devtools)
+install_github(&quot;botanyhelp/Rufosightings&quot;)
+library(Rufosightings)
+</code></pre>
+
+<p>Then you will have the Rufosightings data frame.  It has 55633 rows and 9 variables and can be slow to query.  I wrote this package using data that I got when reading Machine Learning For Hackers.  This data is no longer easy to get using the mechanism described in the book.  The package has only one function, ufo_byexactdate().  All of the excellent reports on in the R data frame that comes with the package.  Anyone can install the Rufosightings from its location on github and try it out like this:</p>
+<pre><code class="r">library(devtools)
+install_github(&quot;botanyhelp/Rufosightings&quot;)
+library(Rufosightings)
+ufo_byexactdate()
+ufo_byexactdate(20100704)
+dim(Rufosightings)
+Rufosightings[Rufosightings$sighted_at_year==&quot;1950&quot;,]
+Rufosightings[Rufosightings$sighted_at_year==&quot;1942&quot;,]$description
+Rufosightings[Rufosightings$sighted_at_year==&quot;1942&quot;,]$duration
+Rufosightings[Rufosightings$sighted_at_year==&quot;1942&quot;,]$shape
+
+</code></pre>
+
+<p>Because I collected this data using web crawling python, there are lots of HTML artifacts in the data.  A bigger problem is that there are some rows where the column shifted.  You can see this with </p>
+<pre><code class="r">levels(Rufosightings$shape)
+</code></pre>
+
+<p>There is not supposed to be a shape called "5 minutes".  That value for that row should have gone into the <strong>duration</strong> column.  Hope to fix someday but its been a long time. </p>
+<p>Also notice that the values in location_city and shape all start with a space character.  (Sorry about that, hope to fix it).  Therefore, when querying, every location_city value must be prepended with a space character:</p>
+<pre><code class="r">Rufosightings[Rufosightings$location_city==&quot; Slickville&quot;,]
+</code></pre>
+
+<p>Life with mediocre data packages like Rufosightings is better with dplyr. Here we get a better idea of the data and we also look for the description of cigar shaped UFOs seen in Miami:</p>
+<pre><code class="r">library(dplyr)
+glimpse(Rufosightings)
+select(Rufosightings,c(location_city,shape,description)) %&gt;% filter(location_city==&quot; Miami&quot;) %&gt;% filter(shape==&quot; cigar&quot;)
+</code></pre></div>
             
         </div>
 
