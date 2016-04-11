@@ -60,30 +60,18 @@
                 
                 
                     <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Linux <b class="caret"></b></a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Systems <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                         
                             
 <li >
-    <a href="../../linux/clustering/">Clustering</a>
+    <a href="../../systems/cloud/">Cloud</a>
 </li>
 
                         
                             
 <li >
-    <a href="../../linux/amazon/">Amazon</a>
-</li>
-
-                        
-                            
-<li >
-    <a href="../../linux/heroku/">Heroku</a>
-</li>
-
-                        
-                            
-<li >
-    <a href="../../linux/gae/">Google App Engine</a>
+    <a href="../../systems/database/">Databases</a>
 </li>
 
                         
@@ -152,46 +140,7 @@
                         
                             
 <li >
-    <a href="../c/">C</a>
-</li>
-
-                        
-                            
-<li >
     <a href="../ios/">Ios</a>
-</li>
-
-                        
-                        </ul>
-                    </li>
-                
-                
-                
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Databases <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                        
-                            
-<li >
-    <a href="../../databases/mysql/">Mysql</a>
-</li>
-
-                        
-                            
-<li >
-    <a href="../../databases/postgres/">Postgres</a>
-</li>
-
-                        
-                            
-<li >
-    <a href="../../databases/sqlite/">Sqlite</a>
-</li>
-
-                        
-                            
-<li >
-    <a href="../../databases/google_data_store/">Google_data_store</a>
 </li>
 
                         
@@ -236,11 +185,20 @@
                         </a>
                     </li>
                     <li >
-                        <a rel="prev" href="../c/">
+                        <a rel="prev" href="../ios/">
                             Next <i class="fa fa-arrow-right"></i>
                         </a>
                     </li>
                 
+                
+                    <li>
+                        <a href="https://github.com/botanyhelp">
+                            
+                                <i class="fa fa-github"></i>
+                            
+                            GitHub
+                        </a>
+                    </li>
                 
             </ul>
         </div>
@@ -254,46 +212,31 @@
     
         <li class="main active"><a href="#content">Content</a></li>
         
-            <li><a href="#multilingual-and-left-to-right-html">Multilingual and left to right HTML</a></li>
+            <li><a href="#multilingual-and-right-to-left-html5">Multilingual and right to left HTML5</a></li>
         
-            <li><a href="#offline-web-application-agemaker-age-calculating-web-page">Offline web application: Agemaker age calculating web page.</a></li>
+            <li><a href="#two-languages-on-one-page">Two languages on one page</a></li>
+        
+            <li><a href="#offline-web-application-agemaker-age-calculating-web-page">Offline web application: Agemaker age calculating web page</a></li>
         
     
     </ul>
 </div></div>
                 <div class="col-md-9" role="main">
 
-<h1 id="content">Content</h1>
-<p>Creating content nowadays means the mobile web and isn't getting easier.  These books are good:</p>
-<ul>
-<li>Mobile HTML5 by Estelle Weyl</li>
-<li>Head First HTML and CSS, 2nd Edition by Elisabeth Robson, Eric Freeman</li>
-</ul>
-<p>Creating content with markdown is easier.  Using markdown you can let software write the HTML, CSS and javascript and create the PDF and MSWord document for you.  Content creation happens sooner and life is better with markdown.  <a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet">Markdown Cheatsheet</a></p>
-<h2 id="multilingual-and-left-to-right-html">Multilingual and left to right HTML</h2>
-<p>This page should work on every modern web browser.  It displays the hebrew language and instructs the browser to present it using a right-to-left reading orientation which is proper for right to left languages like hebrew.  This is achieved with the dir attribute of the html element.  </p>
-<pre><code>&lt;html lang=&quot;he&quot; dir=&quot;rtl&quot;&gt;
-</code></pre>
-
-<p>Notice in your browser that it <strong>selects</strong> the text using the right to left orientation, not like with English and other left to right languages:</p>
-<p><a href="https://github.com/botanyhelp/Agemakeroffline/blob/master/hebrew.html">https://github.com/botanyhelp/Agemakeroffline/blob/master/hebrew.html</a></p>
-<p>Notice that the left right to left will only work if you save the file and then look at it in your browser, or if you install the hebrew.html file onto a web server.  You can see online here:</p>
+<h2 id="content">Content</h2>
+<h3 id="multilingual-and-right-to-left-html5">Multilingual and right to left HTML5</h3>
 <p><a href="http://www.pitt.edu/~twm11/hebrew.html">http://www.pitt.edu/~twm11/hebrew.html</a></p>
-<p>This page, one page of HTML, shows two languages using the lang attribute at the element level:</p>
-<p><a href="https://github.com/botanyhelp/Agemakeroffline/blob/master/russian.html">https://github.com/botanyhelp/Agemakeroffline/blob/master/russian.html</a></p>
-<p>You can see online here:</p>
+<p><a href="https://github.com/botanyhelp/Agemakeroffline/blob/master/hebrew.html">(code on github)</a></p>
+<p>It displays the hebrew language and instructs the browser to present it using a right-to-left reading orientation which is proper for right to left languages like hebrew.</p>
+<p>Notice in your browser that it <strong>selects</strong> the text using the <strong>right to left</strong> orientation, not like with English and other left to right languages.</p>
+<h3 id="two-languages-on-one-page">Two languages on one page</h3>
+<p>One page of HTML, two languages:</p>
 <p><a href="http://www.pitt.edu/~twm11/russian.html">http://www.pitt.edu/~twm11/russian.html</a></p>
-<p>That page sets the lang attribute of an element three times on that page like this:</p>
-<pre><code>&lt;title lang=&quot;ru&quot;&gt;
-&lt;p lang=&quot;ru&quot;&gt;
-&lt;p lang=&quot;en&quot;&gt;
-</code></pre>
-
-<h2 id="offline-web-application-agemaker-age-calculating-web-page">Offline web application: Agemaker age calculating web page.</h2>
+<p><a href="https://github.com/botanyhelp/Agemakeroffline/blob/master/russian.html">(code on github)</a></p>
+<h3 id="offline-web-application-agemaker-age-calculating-web-page">Offline web application: Agemaker age calculating web page</h3>
 <p><a href="http://www.pitt.edu/~twm11/agemaker.html">http://www.pitt.edu/~twm11/agemaker.html</a></p>
-<p>The application logic is written in Javascript and uses the entered birthdate to calculate the current age to one decimal place.  This application is useful for researchers that wish to record the present age of participants (instead of entering a birthdate and current date).  Sometimes the current age is the desired value.  This web application also has the benefit of being an offline web app.  Therefore, when you revisit this URL later, when you have no Internet connection, it still works (on all modern web browsers).  It also has the benefit of not recording or transmitting any data. </p>
-<p>The javascript, HTML5 and everything is in one file, agemaker.html, available on github:</p>
-<p><a href="https://github.com/botanyhelp/Agemakeroffline">https://github.com/botanyhelp/Agemakeroffline</a></p></div>
+<p>This web application is an <strong>offline web app</strong> such that, when you revisit this URL later, <strong>when you have no Internet connection</strong>, it still works (on all modern web browsers).</p>
+<p><a href="https://github.com/botanyhelp/Agemakeroffline">(code on github)</a></p></div>
             
         </div>
 

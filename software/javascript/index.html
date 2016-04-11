@@ -60,30 +60,18 @@
                 
                 
                     <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Linux <b class="caret"></b></a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Systems <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                         
                             
 <li >
-    <a href="../../linux/clustering/">Clustering</a>
+    <a href="../../systems/cloud/">Cloud</a>
 </li>
 
                         
                             
 <li >
-    <a href="../../linux/amazon/">Amazon</a>
-</li>
-
-                        
-                            
-<li >
-    <a href="../../linux/heroku/">Heroku</a>
-</li>
-
-                        
-                            
-<li >
-    <a href="../../linux/gae/">Google App Engine</a>
+    <a href="../../systems/database/">Databases</a>
 </li>
 
                         
@@ -152,46 +140,7 @@
                         
                             
 <li >
-    <a href="../c/">C</a>
-</li>
-
-                        
-                            
-<li >
     <a href="../ios/">Ios</a>
-</li>
-
-                        
-                        </ul>
-                    </li>
-                
-                
-                
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Databases <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                        
-                            
-<li >
-    <a href="../../databases/mysql/">Mysql</a>
-</li>
-
-                        
-                            
-<li >
-    <a href="../../databases/postgres/">Postgres</a>
-</li>
-
-                        
-                            
-<li >
-    <a href="../../databases/sqlite/">Sqlite</a>
-</li>
-
-                        
-                            
-<li >
-    <a href="../../databases/google_data_store/">Google_data_store</a>
 </li>
 
                         
@@ -242,6 +191,15 @@
                     </li>
                 
                 
+                    <li>
+                        <a href="https://github.com/botanyhelp">
+                            
+                                <i class="fa fa-github"></i>
+                            
+                            GitHub
+                        </a>
+                    </li>
+                
             </ul>
         </div>
     </div>
@@ -258,7 +216,7 @@
         
             <li><a href="#ucsc-genome-browser-dynamic-custom-track-documentation">UCSC Genome Browser dynamic custom track documentation</a></li>
         
-            <li><a href="#agemaker-age-calculating-web-page">Agemaker age calculating web page.</a></li>
+            <li><a href="#agemaker-age-calculating-offline-web-app">Agemaker age calculating offline web app</a></li>
         
     
     </ul>
@@ -266,27 +224,17 @@
                 <div class="col-md-9" role="main">
 
 <h2 id="javascript">Javascript</h2>
-<p>Learning Javascript should be done with these two books, read in this order:</p>
-<ul>
-<li>Head First JavaScript Programming by Eric T. Freeman, Elisabeth Robson</li>
-<li>JavaScript: The Good Parts by Douglas Crockford</li>
-</ul>
-<p>Javascript libraries like jQuery are often useful.  However, you might find that life is better when you keep your web pages simple, use Javascript purposefully, and write it yourself without libraries.  Do prefer to become a javascript programmer (instead of, for example, a jQuery programmer).  This style of <strong>avoiding javascript libraries</strong> is a style, not a religion.  Many javascript libraries target a specific functionality.  When you need such functionality, using such libraries will boost the quality and performance of your code and save you lots of time and effort.  One example of such a library is Lea Verou's awesomplete, which is totally awesome. </p>
 <h3 id="awesomplete-javascript-autocompletion-with-28510-gene-symbols">Awesomplete javascript autocompletion with 28510 gene symbols</h3>
-<p>Lea Verou's <a href="https://leaverou.github.io/awesomplete/">Awesomplete</a> is an easy to use and totally awesome little javascript library.  </p>
 <p>This <a href="../../rawHTML/gene.html">short web form</a> selects and displays candidate gene symbols that you start typing with auto-completion.  It selects candidate gene symbols from a long list of 28510 genes.  This javascript was used to limit form submissions to only the list of genes that will be considered by Michigan's excellent <a href="http://locuszoom.sph.umich.edu/locuszoom/">locuszoom</a> program.</p>
-<p>Code is available on github:</p>
-<p><a href="https://github.com/botanyhelp/Agemakeroffline/blob/master/gene.html">https://github.com/botanyhelp/Agemakeroffline/blob/master/gene.html</a></p>
+<p>Uses Lea Verou's <a href="https://leaverou.github.io/awesomplete/">Awesomplete</a> easy to use and totally awesome little javascript library.  </p>
+<p><a href="https://github.com/botanyhelp/Agemakeroffline/blob/master/gene.html">(code on github)</a></p>
 <h3 id="ucsc-genome-browser-dynamic-custom-track-documentation">UCSC Genome Browser dynamic custom track documentation</h3>
-<p>Adding dynamic javascript to a UCSC genome browser custom track documentation file is possible.  This particular javascript uses the specific location on the genome where the user was browsing to decide what links to display on the documentation page.  This strategy would be useful for a single custom track that represents dozens of experimental units across dozens of URLs.  </p>
-<p>This HTML/Javascript file can be used as dynamic documentation with a local track on the UCSC genome browser at genome.ucsc.edu.  The javascript makes an AJAX request to fetch a JSON formatted data file, which it parses and uses to manage the display of the documentation for the local track.  Very large local track files that span wide areas of the genome may want the documentation to change depending on where the current genome browser visitor is on the genome.  This experimental Javascript achieves that by finding the location being viewed, finding the interesting locations (via AJAX fetch of JSON datafile), and dynamically displaying the documentation that is relevant. </p>
-<p>Code is available on github:</p>
-<p><a href="https://github.com/botanyhelp/Gbjavascript">https://github.com/botanyhelp/Gbjavascript</a></p>
-<h3 id="agemaker-age-calculating-web-page">Agemaker age calculating web page.</h3>
+<p>Adding dynamic javascript to a UCSC genome browser custom track documentation file is possible. </p>
+<p><a href="https://github.com/botanyhelp/Gbjavascript">(code on github)</a></p>
+<h3 id="agemaker-age-calculating-offline-web-app">Agemaker age calculating offline web app</h3>
 <p><a href="http://www.pitt.edu/~twm11/agemaker.html">http://www.pitt.edu/~twm11/agemaker.html</a></p>
-<p>The application logic is written in Javascript and uses the entered birthdate to calculate the current age to one decimal place.  This application is useful for researchers that wish to record the present age of participants (instead of entering a birthdate and current date).  Sometimes the current age is the desired value.  This web application also has the benefit of being an offline web app.  Therefore, when you revisit this URL later, when you have no Internet connection, it still works (on all modern web browsers).  It also has the benefit of not recording or transmitting any data. </p>
-<p>The javascript, HTML5 and everything is in one file, agemaker.html, available on github:</p>
-<p><a href="https://github.com/botanyhelp/Agemakeroffline">https://github.com/botanyhelp/Agemakeroffline</a></p></div>
+<p>The application logic is written in Javascript and uses the entered birthdate to calculate the current age to one decimal place (for data entry).  This application is an offline web app which means that it will continue to work even after your Internet connection dies (on all modern browers). </p>
+<p>The javascript, HTML5 and everything is in one file, agemaker.html:  <a href="https://github.com/botanyhelp/Agemakeroffline">(code on github)</a></p></div>
             
         </div>
 

@@ -60,30 +60,18 @@
                 
                 
                     <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Linux <b class="caret"></b></a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Systems <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                         
                             
 <li >
-    <a href="../../linux/clustering/">Clustering</a>
+    <a href="../../systems/cloud/">Cloud</a>
 </li>
 
                         
                             
 <li >
-    <a href="../../linux/amazon/">Amazon</a>
-</li>
-
-                        
-                            
-<li >
-    <a href="../../linux/heroku/">Heroku</a>
-</li>
-
-                        
-                            
-<li >
-    <a href="../../linux/gae/">Google App Engine</a>
+    <a href="../../systems/database/">Databases</a>
 </li>
 
                         
@@ -152,46 +140,7 @@
                         
                             
 <li >
-    <a href="../c/">C</a>
-</li>
-
-                        
-                            
-<li >
     <a href="../ios/">Ios</a>
-</li>
-
-                        
-                        </ul>
-                    </li>
-                
-                
-                
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Databases <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                        
-                            
-<li >
-    <a href="../../databases/mysql/">Mysql</a>
-</li>
-
-                        
-                            
-<li >
-    <a href="../../databases/postgres/">Postgres</a>
-</li>
-
-                        
-                            
-<li >
-    <a href="../../databases/sqlite/">Sqlite</a>
-</li>
-
-                        
-                            
-<li >
-    <a href="../../databases/google_data_store/">Google_data_store</a>
 </li>
 
                         
@@ -242,6 +191,15 @@
                     </li>
                 
                 
+                    <li>
+                        <a href="https://github.com/botanyhelp">
+                            
+                                <i class="fa fa-github"></i>
+                            
+                            GitHub
+                        </a>
+                    </li>
+                
             </ul>
         </div>
     </div>
@@ -258,6 +216,8 @@
         
             <li><a href="#python-web-application-fix-am-fm">Python web application Fix AM FM</a></li>
         
+            <li><a href="#python-web-application-fix-wdc">Python web application Fix WDC</a></li>
+        
             <li><a href="#albumartmaker">Albumartmaker</a></li>
         
             <li><a href="#searchyumrepos">Searchyumrepos</a></li>
@@ -272,79 +232,54 @@
         
             <li><a href="#qrcode">QRCode</a></li>
         
-            <li><a href="#python-web-application-fix-wdc">Python web application Fix WDC</a></li>
-        
     
     </ul>
 </div></div>
                 <div class="col-md-9" role="main">
 
 <h2 id="python">Python</h2>
-<p>Python is the best programming language to learn for almost everyone.  Its beauty, easy, ubiquity, power and quality make it so.  The best book for learning python hasn't been written yet.  Experienced programmers might like Mark Pilgrim's Dive Into Python and/or Dive Into Python 3.  Newer programmers should possibly start with Luciano Ramalho's Fluent Python.  Mark Lutz's Learning Python and Programming Python and Paul Barry's Head First Python are good books but are <strong>not</strong> for learning python.  Almost everyone agrees that new learners should learn <strong>python 3</strong> instead of python 2. </p>
+<ul>
+<li>Software below has very short summary, link (if available) and link to code on github</li>
+</ul>
 <h3 id="google-app-engine-wisconsin-herbarium">Google App Engine Wisconsin Herbarium</h3>
-<p>Python web application running on Google App Engine infrastructure at:</p>
 <p><a href="http://wisconsinherbarium.appspot.com/">http://wisconsinherbarium.appspot.com/</a></p>
-<p>..all of the code is open source and available at:</p>
-<p><a href="https://github.com/botanyhelp/Herbpythonappengine">https://github.com/botanyhelp/Herbpythonappengine</a></p>
+<p><a href="https://github.com/botanyhelp/Herbpythonappengine">(code on github)</a></p>
 <h3 id="python-web-application-fix-am-fm">Python web application <strong>Fix AM FM</strong></h3>
-<p>..deployed and running on Google App Engine infrastructure at:</p>
 <p><a href="http://fixamfm.appspot.com/">http://fixamfm.appspot.com/</a></p>
-<p>..all of the code is open source and available at:</p>
-<p><a href="https://github.com/botanyhelp/fixamfm">https://github.com/botanyhelp/fixamfm</a></p>
-<p>The application allows visitors create song requests to any/every radio station in America.  There is a modest "captcha" system to fend off robots.</p>
+<p><a href="https://github.com/botanyhelp/fixamfm">(code on github)</a></p>
+<h3 id="python-web-application-fix-wdc">Python web application <strong>Fix WDC</strong></h3>
+<p><a href="http://fixwdc.appspot.com/">http://fixwdc.appspot.com/</a></p>
 <h3 id="albumartmaker">Albumartmaker</h3>
-<p>Python program to read text and create a 300x300 image file of the text. </p>
-<p>Album art are those things you see on the ipod when playing a song.  Its 
-part of the ID3 tag system of mp3 files.  Circa 2010 ipods displayed 300x300 
-png files nicely.  This program only makes the 300x300 image file.  The 
-text to be put into the image (and many other details) are hardcoded into 
-the program.  It would be most useful with many MP3 files where you know 
-the text you want to put into the image.  If your MP3 has six songs in it 
-and you want to make an image with 6 artist/album/song listings, then this 
-program can do it.  Notice that this program will only create the image file. 
-You'll need another program to push it into your existing MP3 file's tag. </p>
-<p>You can test it like this:</p>
+<p>Creates new 300x300 PNG file in the current directory: test.png</p>
 <pre><code>python piller2.py
 </code></pre>
 
-<p>...and you will have a new PNG file in the current directory:</p>
-<p>test.png</p>
-<p>Requires modules Image, ImageDraw, and texwrap
-Will use ImageFont if you have them (/usr/share/fonts/bitstream-vera/Vera.ttf)</p>
-<p>Code is open source and available on github:</p>
-<p><a href="https://github.com/botanyhelp/Albumartmaker">https://github.com/botanyhelp/Albumartmaker</a></p>
+<ul>
+<li>Requires modules Image, ImageDraw, and texwrap</li>
+<li>Will use ImageFont if you have them (/usr/share/fonts/bitstream-vera/Vera.ttf)</li>
+</ul>
+<p><a href="https://github.com/botanyhelp/Albumartmaker">(code on github)</a></p>
 <h3 id="searchyumrepos">Searchyumrepos</h3>
 <p>Search yum software repositories for your list of software.</p>
-<p>Code is open source and available on github:</p>
-<p><a href="https://github.com/botanyhelp/Searchyumrepos">https://github.com/botanyhelp/Searchyumrepos</a></p>
-<p>Here we run it and learn that this linux machine does not have the remi repository installed.  You will need to edit the python to add your list of repositories, which are hardcoded. </p>
 <pre><code>python searchyumrepos.py anaconda
-ABOUT TO RUN THIS COMMAND:
-
-yum list --enablerepo=epel --enablerepo=remi --enablerepo=rpmforge --enablerepo=atrpms --enablerepo=R-project anaconda
-Loaded plugins: fastestmirror, refresh-packagekit, security
-
-
-Error getting repository data for remi, repository not found
 </code></pre>
 
+<p><a href="https://github.com/botanyhelp/Searchyumrepos">(code on github)</a></p>
 <h3 id="gmailer">Gmailer</h3>
-<p>Gmailer is a short python script to use gmail to send email</p>
-<p><a href="https://github.com/botanyhelp/Gmailer">https://github.com/botanyhelp/Gmailer</a></p>
+<p>Short python script to use gmail to send email</p>
+<p><a href="https://github.com/botanyhelp/Gmailer">(code on github)</a></p>
 <h3 id="ucscdiskspacer">Ucscdiskspacer</h3>
-<p>Program to report total size, in bytes, of UCSC genome browser databases
-It is useful to estimate how large the databases are before you download. </p>
-<p>Use it like this for a zebrafish and human assembly:</p>
+<p>Program to report total size, in bytes, of UCSC genome browser databases</p>
 <pre><code>python ucsc_disk_spacer.py danRer5 hg19
 </code></pre>
 
-<p>Available on github:</p>
-<p><a href="https://github.com/botanyhelp/Ucscdiskspacer">https://github.com/botanyhelp/Ucscdiskspacer</a></p>
+<p><a href="https://github.com/botanyhelp/Ucscdiskspacer">(code on github)</a></p>
 <h3 id="ucscquery">Ucscquery</h3>
 <p>Python standalone program to query UCSC Genome Browser Mysql database</p>
-<p><em>Requires module MySQLdb
-</em>Requires internet access</p>
-<p>Hardcoded username and database.  Only the database will need to be changed by you...you would change 'mm9' to 'hg19' if you want to change from Mouse to Human organism. </p>
+<ul>
+<li>Requires module MySQLdb</li>
+<li>Requires internet access</li>
+</ul>
 <p>This program performs steps that can be run manually like this:</p>
 <pre><code>mysql --user=genome --host=genome-mysql.cse.ucsc.edu -A
 mysql&gt; use mm9;
@@ -352,28 +287,14 @@ Database changed
 mysql&gt; select * from knownCanonical;
 </code></pre>
 
-<p>The UCSC Genome Browser provides a public mysql server.  Python program ucscquery.py shows how to query that server.  The public server, username and password are embedded in the program.  There are hundreds of databases, one for each assembly.  The program hardcodes the mm9 assembly of the Mouse organism.  The query execution returns a long, which we promptly convert to an int.  We then use that to fetch every record one at a time in a loop.  Understanding the databases and their tables is not easy.  The schema is designed primarily to support the genome browser at genome.ucsc.edu.  Even so, clever querying is possible.  Good luck.</p>
-<p>Code available on github:</p>
-<p><a href="https://github.com/botanyhelp/Ucscquery">https://github.com/botanyhelp/Ucscquery</a></p>
+<p><a href="https://github.com/botanyhelp/Ucscquery">(code on github)</a></p>
 <h3 id="botitwebmaker">Botitwebmaker</h3>
-<p>Python program that generates HTML web site from a directory of image files.  Generates the content found here:</p>
+<p>Python program that generates HTML web site from a directory of image files.  Generated the HTML found here:</p>
 <p><a href="http://botit.botany.wisc.edu/">http://botit.botany.wisc.edu/</a></p>
-<p>The README documentation for botitwebmaker is 
-embedded in the program itself.  Running it 
-can be done by placing the program in the 
-root directory of a directory tree of image 
-files.  The (only!) website that uses it can 
-be found here: http://botit.botany.wisc.edu/</p>
-<p>Code available on github:</p>
-<p><a href="https://github.com/botanyhelp/Botitwebmaker">https://github.com/botanyhelp/Botitwebmaker</a></p>
+<p><a href="https://github.com/botanyhelp/Botitwebmaker">(code on github)</a></p>
 <h3 id="qrcode">QRCode</h3>
-<p>QR codes are those things we see everywhere on ads that let mobile phone/camera users snap to take them to a URL. We want them for Facebase posters.
-This ruby code creates png formatted images of the QR codes. It also dumps text which can be used to create an HTML/CSS version of the QR code:</p>
-<pre><code>qrHTMLandPNGmaker.rb
-</code></pre>
-
-<p>That ruby doesn't actually dump HTML, only text with and 'x' character for dark and a "space" character for light. That text output can be used to create HTML/CSS that displays the QR code as an HTML table. This python program reads the output from the ruby program (the text output) and writes HTML/CSS to generate the QR code:</p>
-<pre><code>qrHTMLmaker.py
+<pre><code>ruby qrHTMLandPNGmaker.rb &gt; rb.txt
+python qrHTMLmaker.py &gt; qr_codes.html
 </code></pre>
 
 <p>The ruby requires some modules that are probably not present. Install them with gem like this:</p>
@@ -381,21 +302,7 @@ This ruby code creates png formatted images of the QR codes. It also dumps text 
 gem install rqrcode_png
 </code></pre>
 
-<p>NOTICE that the URLs are hardcoded into the ruby.
-NOTICE that the file qr.txt produced by the ruby is a hardcoded input filename in the python.
-The whole thing was run like this:</p>
-<pre><code>ruby qrHTMLandPNGmaker.rb &gt; rb.txt
-python qrHTMLmaker.py &gt; qr_codes.html
-</code></pre>
-
-<p>After running the ruby program, six new 300x300 PNG-formatted images will be created in the current directory. The output HTML from the python can be dropped right into any HTML file and will display the QR codes.</p>
-<p>Available on github: 
-<a href="https://github.com/botanyhelp/Qrcode">https://github.com/botanyhelp/Qrcode</a></p>
-<h3 id="python-web-application-fix-wdc">Python web application <strong>Fix WDC</strong></h3>
-<p>..deployed and running on Google App Engine infrastructure at:</p>
-<p><a href="http://fixwdc.appspot.com/">http://fixwdc.appspot.com/</a></p>
-<p>fixwdc allows you to send a request to any congressional district in America. Any representative can monitor the requests that are made. Please be respectful.  </p>
-<p>This application stores all submissions in the Google Data Store associated with this application.  Because login is not required, a very tedious automated system is in place to censor and eliminate </p></div>
+<p><a href="https://github.com/botanyhelp/Qrcode">(code on github)</a></p></div>
             
         </div>
 

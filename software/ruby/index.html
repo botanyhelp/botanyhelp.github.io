@@ -60,30 +60,18 @@
                 
                 
                     <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Linux <b class="caret"></b></a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Systems <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                         
                             
 <li >
-    <a href="../../linux/clustering/">Clustering</a>
+    <a href="../../systems/cloud/">Cloud</a>
 </li>
 
                         
                             
 <li >
-    <a href="../../linux/amazon/">Amazon</a>
-</li>
-
-                        
-                            
-<li >
-    <a href="../../linux/heroku/">Heroku</a>
-</li>
-
-                        
-                            
-<li >
-    <a href="../../linux/gae/">Google App Engine</a>
+    <a href="../../systems/database/">Databases</a>
 </li>
 
                         
@@ -152,46 +140,7 @@
                         
                             
 <li >
-    <a href="../c/">C</a>
-</li>
-
-                        
-                            
-<li >
     <a href="../ios/">Ios</a>
-</li>
-
-                        
-                        </ul>
-                    </li>
-                
-                
-                
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Databases <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                        
-                            
-<li >
-    <a href="../../databases/mysql/">Mysql</a>
-</li>
-
-                        
-                            
-<li >
-    <a href="../../databases/postgres/">Postgres</a>
-</li>
-
-                        
-                            
-<li >
-    <a href="../../databases/sqlite/">Sqlite</a>
-</li>
-
-                        
-                            
-<li >
-    <a href="../../databases/google_data_store/">Google_data_store</a>
 </li>
 
                         
@@ -242,6 +191,15 @@
                     </li>
                 
                 
+                    <li>
+                        <a href="https://github.com/botanyhelp">
+                            
+                                <i class="fa fa-github"></i>
+                            
+                            GitHub
+                        </a>
+                    </li>
+                
             </ul>
         </div>
     </div>
@@ -264,42 +222,30 @@
                 <div class="col-md-9" role="main">
 
 <h2 id="ruby">Ruby</h2>
-<p>Ruby and Rails are steep climbs.  They are wonders of elegance and efficiency.  Ruby and rails are in a category with python, linux, git and others among the best software ever created.  The <strong>easy</strong> way to learn Ruby is with Hal Fulton's <strong>The Ruby Way</strong>, then Yukihiro Matsumoto's <strong>The Ruby Programming Language</strong> and finally Obie Fernandez's <strong>The Rails 4 Way</strong>.  If you have never programmed before, then I think Jay McGavren's <strong>Head First Ruby</strong> should be the first book.  Almost everyone that reads these books will become RoR people.  </p>
 <h3 id="herokucarriers">Herokucarriers</h3>
-<p>Ruby on Rails web application with Postgres database backend.  This application is deployable on a local machine using the Rails Webrick http server and a local Postgres database.  The code has the entire application but does not have anything to do with the Postgres database server that it expects is running locally and allowing local connections.  The code does have the capacity to load all of the initial records into the database.  </p>
-<p>The code is also ready to be deployed to Heroku.  This application was deployed on Heroku in October 2014 and is running there now at:</p>
+<ul>
+<li><strong>Be patient: heroku dymo startup takes a few seconds</strong>:</li>
+</ul>
 <p><a href="https://aqueous-bayou-3129.herokuapp.com/carriers/">https://aqueous-bayou-3129.herokuapp.com/carriers/</a></p>
-<p>All of the code are open source GPLv3 and on github at:</p>
-<p><a href="https://github.com/botanyhelp/Herokucarriers">https://github.com/botanyhelp/Herokucarriers</a></p>
-<p>..all of the data in the application are thankfully provided by wikipedia editors and shared under this license.</p>
-<p><a href="https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License</a></p>
-<p><a href="https://creativecommons.org/licenses/by-sa/3.0/us/">https://creativecommons.org/licenses/by-sa/3.0/us/</a></p>
-<p>It is possible to setup this application on a local linux box as described on the <a href="../../linux/heroku/">Heroku</a> and <a href="../../databases/postgres/">Postgres</a> pages.</p>
+<p><a href="https://github.com/botanyhelp/Herokucarriers">(code on github)</a></p>
 <h3 id="qrcode">QRCode</h3>
-<p>QR codes are those things we see everywhere on ads that let mobile phone/camera users snap to take them to a URL. We want them for Facebase posters.
-This ruby code creates png formatted images of the QR codes. It also dumps text which can be used to create an HTML/CSS version of the QR code:</p>
-<pre><code>qrHTMLandPNGmaker.rb
-</code></pre>
-
-<p>That ruby doesn't actually dump HTML, only text with and 'x' character for dark and a "space" character for light. That text output can be used to create HTML/CSS that displays the QR code as an HTML table. This python program reads the output from the ruby program (the text output) and writes HTML/CSS to generate the QR code:</p>
-<pre><code>qrHTMLmaker.py
-</code></pre>
-
+<p>This ruby code creates png formatted images of the QR codes. It also dumps text which can be used to create an HTML/CSS version of the QR code.</p>
 <p>The ruby requires some modules that are probably not present. Install them with gem like this:</p>
 <pre><code>gem install rqrcode
 gem install rqrcode_png
 </code></pre>
 
-<p>NOTICE that the URLs are <strong>hardcoded into the ruby</strong>.
-NOTICE that the file qr.txt produced by the ruby is a <strong>hardcoded input filename</strong> in the python.
-The whole thing was run like this:</p>
+<ul>
+<li>NOTICE that the URLs are <strong>hardcoded into the ruby</strong>.</li>
+<li>NOTICE that the file qr.txt produced by the ruby is a <strong>hardcoded input filename</strong> in the python.</li>
+<li>The whole thing was run like this:</li>
+</ul>
 <pre><code>ruby qrHTMLandPNGmaker.rb &gt; rb.txt
 python qrHTMLmaker.py &gt; qr_codes.html
 </code></pre>
 
 <p>After running the ruby program, six new 300x300 PNG-formatted images will be created in the current directory. The output HTML from the python can be dropped right into any HTML file and will display the QR codes.</p>
-<p>Available on github: 
-<a href="https://github.com/botanyhelp/Qrcode">https://github.com/botanyhelp/Qrcode</a></p></div>
+<p><a href="https://github.com/botanyhelp/Qrcode">code on github</a></p></div>
             
         </div>
 

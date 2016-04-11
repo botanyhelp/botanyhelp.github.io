@@ -60,30 +60,18 @@
                 
                 
                     <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Linux <b class="caret"></b></a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Systems <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                         
                             
 <li >
-    <a href="../../linux/clustering/">Clustering</a>
+    <a href="../../systems/cloud/">Cloud</a>
 </li>
 
                         
                             
 <li >
-    <a href="../../linux/amazon/">Amazon</a>
-</li>
-
-                        
-                            
-<li >
-    <a href="../../linux/heroku/">Heroku</a>
-</li>
-
-                        
-                            
-<li >
-    <a href="../../linux/gae/">Google App Engine</a>
+    <a href="../../systems/database/">Databases</a>
 </li>
 
                         
@@ -152,46 +140,7 @@
                         
                             
 <li >
-    <a href="../c/">C</a>
-</li>
-
-                        
-                            
-<li >
     <a href="../ios/">Ios</a>
-</li>
-
-                        
-                        </ul>
-                    </li>
-                
-                
-                
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Databases <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                        
-                            
-<li >
-    <a href="../../databases/mysql/">Mysql</a>
-</li>
-
-                        
-                            
-<li >
-    <a href="../../databases/postgres/">Postgres</a>
-</li>
-
-                        
-                            
-<li >
-    <a href="../../databases/sqlite/">Sqlite</a>
-</li>
-
-                        
-                            
-<li >
-    <a href="../../databases/google_data_store/">Google_data_store</a>
 </li>
 
                         
@@ -242,6 +191,15 @@
                     </li>
                 
                 
+                    <li>
+                        <a href="https://github.com/botanyhelp">
+                            
+                                <i class="fa fa-github"></i>
+                            
+                            GitHub
+                        </a>
+                    </li>
+                
             </ul>
         </div>
     </div>
@@ -254,7 +212,9 @@
     
         <li class="main active"><a href="#r">R</a></li>
         
-            <li><a href="#rufosightings-r-package">Rufosightings R package</a></li>
+            <li><a href="#r-programming-certificates">R programming certificates</a></li>
+        
+            <li><a href="#r-package-rufosightings">R package Rufosightings</a></li>
         
     
     </ul>
@@ -262,25 +222,10 @@
                 <div class="col-md-9" role="main">
 
 <h2 id="r">R</h2>
-<p>Learning R programming is best achieved with Robert Kabacoff's R In Action, 2nd Edition.  Garret Grolemund's Hands-On Programming with R is less celebrated but rewards experienced programmers by uncloaking lots of R's strangeness.  Most programmers should be using Rstudio for development especially because it makes learning easier.  Within R, you can do these things (you'll need an internet connection for that first line):</p>
-<ul>
-<li>install.packages("swirl")</li>
-<li>library(swirl)</li>
-</ul>
-<p>Going through the swirl tutorial in R provides efficient learning for new and experienced R programmers, especially if you want learning by doing. </p>
-<p>R is for statistics, you've probably heard, and biostatistics.  The edX online learning platform has an excellent series of courses in R programming, statistics, biology and data analysis.  Learn more at edX and at the book for these courses:</p>
-<p><a href="https://www.edx.org/course/data-analysis-life-sciences-1-statistics-harvardx-ph525-1x">https://www.edx.org/course/data-analysis-life-sciences-1-statistics-harvardx-ph525-1x</a></p>
-<p><a href="https://leanpub.com/dataanalysisforthelifesciences">https://leanpub.com/dataanalysisforthelifesciences</a></p>
-<p>If you drown through these courses you will get some credentials like these to show off to your mom:</p>
+<h3 id="r-programming-certificates">R programming certificates</h3>
 <p><a href="../../experience/certificates/">R biostatistics training</a></p>
-<h3 id="rufosightings-r-package">Rufosightings R package</h3>
-<p>Install it like this: </p>
-<pre><code class="r">library(devtools)
-install_github(&quot;botanyhelp/Rufosightings&quot;)
-library(Rufosightings)
-</code></pre>
-
-<p>Then you will have the Rufosightings data frame.  It has 55633 rows and 9 variables and can be slow to query.  I wrote this package using data that I got when reading Machine Learning For Hackers.  This data is no longer easy to get using the mechanism described in the book.  The package has only one function, ufo_byexactdate().  All of the excellent reports on in the R data frame that comes with the package.  Anyone can install the Rufosightings from its location on github and try it out like this:</p>
+<h3 id="r-package-rufosightings">R package Rufosightings</h3>
+<p>Use R to install and run it like this: </p>
 <pre><code class="r">library(devtools)
 install_github(&quot;botanyhelp/Rufosightings&quot;)
 library(Rufosightings)
@@ -291,20 +236,9 @@ Rufosightings[Rufosightings$sighted_at_year==&quot;1950&quot;,]
 Rufosightings[Rufosightings$sighted_at_year==&quot;1942&quot;,]$description
 Rufosightings[Rufosightings$sighted_at_year==&quot;1942&quot;,]$duration
 Rufosightings[Rufosightings$sighted_at_year==&quot;1942&quot;,]$shape
-
-</code></pre>
-
-<p>Because I collected this data using web crawling python, there are lots of HTML artifacts in the data.  A bigger problem is that there are some rows where the column shifted.  You can see this with </p>
-<pre><code class="r">levels(Rufosightings$shape)
-</code></pre>
-
-<p>There is not supposed to be a shape called "5 minutes".  That value for that row should have gone into the <strong>duration</strong> column.  Hope to fix someday but its been a long time. </p>
-<p>Also notice that the values in location_city and shape all start with a space character.  (Sorry about that, hope to fix it).  Therefore, when querying, every location_city value must be prepended with a space character:</p>
-<pre><code class="r">Rufosightings[Rufosightings$location_city==&quot; Slickville&quot;,]
-</code></pre>
-
-<p>Life with mediocre data packages like Rufosightings is better with dplyr. Here we get a better idea of the data and we also look for the description of cigar shaped UFOs seen in Miami:</p>
-<pre><code class="r">library(dplyr)
+levels(Rufosightings$shape)
+Rufosightings[Rufosightings$location_city==&quot; Slickville&quot;,]
+library(dplyr)
 glimpse(Rufosightings)
 select(Rufosightings,c(location_city,shape,description)) %&gt;% filter(location_city==&quot; Miami&quot;) %&gt;% filter(shape==&quot; cigar&quot;)
 </code></pre></div>

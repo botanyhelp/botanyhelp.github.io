@@ -9,7 +9,7 @@
         
         <link rel="shortcut icon" href="../../img/favicon.ico">
 
-	<title>Java - Botanyhelp</title>
+	<title>Databases - Botanyhelp</title>
 
         <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
         <link href="../../css/font-awesome-4.5.0.css" rel="stylesheet">
@@ -59,19 +59,19 @@
                 
                 
                 
-                    <li class="dropdown">
+                    <li class="dropdown active">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Systems <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                         
                             
 <li >
-    <a href="../../systems/cloud/">Cloud</a>
+    <a href="../cloud/">Cloud</a>
 </li>
 
                         
                             
-<li >
-    <a href="../../systems/database/">Databases</a>
+<li class="active">
+    <a href="./">Databases</a>
 </li>
 
                         
@@ -80,67 +80,67 @@
                 
                 
                 
-                    <li class="dropdown active">
+                    <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Software <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                         
                             
 <li >
-    <a href="../android/">Android</a>
+    <a href="../../software/android/">Android</a>
 </li>
 
                         
                             
 <li >
-    <a href="../python/">Python</a>
-</li>
-
-                        
-                            
-<li class="active">
-    <a href="./">Java</a>
+    <a href="../../software/python/">Python</a>
 </li>
 
                         
                             
 <li >
-    <a href="../javascript/">Javascript</a>
+    <a href="../../software/java/">Java</a>
 </li>
 
                         
                             
 <li >
-    <a href="../r/">R</a>
+    <a href="../../software/javascript/">Javascript</a>
 </li>
 
                         
                             
 <li >
-    <a href="../ruby/">Ruby</a>
+    <a href="../../software/r/">R</a>
 </li>
 
                         
                             
 <li >
-    <a href="../perl/">Perl</a>
+    <a href="../../software/ruby/">Ruby</a>
 </li>
 
                         
                             
 <li >
-    <a href="../php/">Php</a>
+    <a href="../../software/perl/">Perl</a>
 </li>
 
                         
                             
 <li >
-    <a href="../content/">Content</a>
+    <a href="../../software/php/">Php</a>
 </li>
 
                         
                             
 <li >
-    <a href="../ios/">Ios</a>
+    <a href="../../software/content/">Content</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../software/ios/">Ios</a>
 </li>
 
                         
@@ -180,12 +180,12 @@
                 </li>
                 
                     <li >
-                        <a rel="next" href="../python/">
+                        <a rel="next" href="../cloud/">
                             <i class="fa fa-arrow-left"></i> Previous
                         </a>
                     </li>
                     <li >
-                        <a rel="prev" href="../javascript/">
+                        <a rel="prev" href="../../software/android/">
                             Next <i class="fa fa-arrow-right"></i>
                         </a>
                     </li>
@@ -210,28 +210,58 @@
                 <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
     
-        <li class="main active"><a href="#java">Java</a></li>
+        <li class="main active"><a href="#databases">Databases</a></li>
         
-            <li><a href="#android-applications">Android applications</a></li>
+            <li><a href="#google-data-store">Google Data Store</a></li>
         
-            <li><a href="#herbjava">Herbjava</a></li>
+            <li><a href="#postgres">Postgres</a></li>
+        
+            <li><a href="#mysql">MySQL</a></li>
         
     
     </ul>
 </div></div>
                 <div class="col-md-9" role="main">
 
-<h2 id="java">Java</h2>
-<h3 id="android-applications">Android applications</h3>
-<p>See a dozen android applications written in java
-<a href="../../software/android/">/software/android/</a></p>
-<h3 id="herbjava">Herbjava</h3>
-<p>Wisconsin Herbarium tomcat web database application.  This code, when running, will perform very similarly to the existing perl, python and OTS web servers running here:</p>
-<p><a href="http://www.botany.wisc.edu/wisflora/">http://www.botany.wisc.edu/wisflora/</a></p>
-<p><a href="http://wisconsinherbarium.appspot.com/">http://wisconsinherbarium.appspot.com/</a></p>
-<p><a href="http://herbarium.wisc.edu/">http://herbarium.wisc.edu/</a></p>
-<p><a href="https://github.com/botanyhelp/Herbjava">(code on github)</a></p>
-<p>This application is <strong>not running anywhere</strong> to my knowledge.  As a standard tomcat servlet application, it is a port of existing production web servers.  The documentation on github has enough deployment details to get it started again using existing database schema.  </p></div>
+<h2 id="databases">Databases</h2>
+<h3 id="google-data-store">Google Data Store</h3>
+<ul>
+<li>
+<p>Three App Engine web apps use the Google Data Store for persistence:</p>
+<ul>
+<li>
+<p><a href="http://fixwdc.appspot.com/">http://fixwdc.appspot.com/</a></p>
+</li>
+<li>
+<p><a href="http://fixamfm.appspot.com/">http://fixamfm.appspot.com/</a>  <a href="https://github.com/botanyhelp/fixamfm">(code on github)</a></p>
+</li>
+<li>
+<p><a href="http://wisconsinherbarium.appspot.com/">http://wisconsinherbarium.appspot.com/</a>  <a href="https://github.com/botanyhelp/Herbpythonappengine">(code on github)</a></p>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="postgres">Postgres</h3>
+<ul>
+<li>
+<p>Postgres database for Rails application</p>
+<ul>
+<li>
+<p>This Ruby on Rails web application run on Heroku and takes a minute to start:</p>
+</li>
+<li>
+<p><a href="https://aqueous-bayou-3129.herokuapp.com/carriers/">https://aqueous-bayou-3129.herokuapp.com/carriers/</a>  <a href="https://github.com/botanyhelp/Herokucarriers/">(code on github)</a></p>
+</li>
+<li>
+<p>The Rails way of <strong>convention over configuration</strong> has us put the database details in the application configuration.  This application has the instructions for Heroku to create the Postgres database and schema for us in <a href="https://github.com/botanyhelp/Herokucarriers/blob/master/db/schema.rb">schema.db</a> and <a href="https://github.com/botanyhelp/Herokucarriers/blob/master/config/database.yml">database.yml</a>  Details about how to install and configure the Postgres database server are required to run this RoR application on a <strong>local linux box</strong> (instead of Heroku) because it expects a local Postgres database server (like the one it finds when deployed on Heroku).  Those details (for CentOS 6 linux) are available on github.  </p>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="mysql">MySQL</h3>
+<ul>
+<li><a href="http://www.botany.wisc.edu/wisflora/">Wisconsin Herbarium</a></li>
+</ul></div>
             
         </div>
 
