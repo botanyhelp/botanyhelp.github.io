@@ -1,0 +1,43 @@
+site_name: Botanyhelp
+pages:
+- Home: 'index.md'
+- Linux:
+    - 'Linux': 'linux/index.md'
+    - 'Clustering': 'linux/clustering.md'
+    - 'Amazon': 'linux/amazon.md'
+    - 'Heroku': 'linux/heroku.md'
+    - 'Google App Engine': 'linux/gae.md'
+- Software:
+    - 'Android': 'software/android.md'
+    - 'Python': 'software/python.md'
+    - 'Java': 'software/java.md'
+    - 'Javascript': 'software/javascript.md'
+    - 'R': 'software/r.md'
+    - 'Ruby': 'software/ruby.md'
+    - 'Perl': 'software/perl.md'
+    - 'Php': 'software/php.md'
+    - 'Content': 'software/content.md'
+    - 'Ios': 'software/ios.md'
+    - 'C': 'software/c.md'
+    - 'Go': 'software/go.md'
+    - 'Other': 'software/other.md'
+- Databases:
+    - 'Mysql': 'databases/mysql.md'
+    - 'Postgres': 'databases/postgres.md'
+    - 'Sqlite': 'databases/sqlite.md'
+    - 'Google_data_store': 'databases/google_data_store.md'
+- Experience:
+    - 'Academic': 'experience/academic.md'
+    - 'Certificates': 'experience/certificates.md'
+    - 'Precollege': 'experience/precollege.md'
+    - 'College': 'experience/college.md'
+    - 'Postcollege': 'experience/postcollege.md'
+- Fun:
+    - 'Fiction': 'fun/fiction.md'
+    - 'Nonfiction': 'fun/nonfiction.md'
+    - 'Concerts': 'fun/concerts.md'
+    - 'Favorite Music': 'fun/favoritemusic.md'
+    - 'Fishing': 'fun/fishing.md'
+    - 'Travel': 'fun/travel.md'
+    - 'Sports': 'fun/sports.md'
+    - 'Technology': 'fun/technology.md'

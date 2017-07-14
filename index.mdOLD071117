@@ -1,0 +1,107 @@
+## Thomas Maher 
+In New Alexandria, PA, long ago.
+
+![images/tom6th200x286.png](images/tom6th200x286.png)
+
+These pages summarize software I've written that can be found on [my github page](https://github.com/botanyhelp/)  
+
+### Education
+
+* B.S. Chemical Engineering, Penn State 1996
+
+### Experience
+
+* University of Pittsburgh School of Dental Medicine- Systems Programmer - Pittsburgh, PA (7/2010-Present)
+* University of Wisconsin Department of Botany - Information Processing Consultant - Madison, WI (1/2006-7/2010)
+* Penn State University Department of Computer Science and Engineering - Senior Systems Analyst State College, PA (8/2004-6/2005)
+* University of Wisconsin Department of Family Medicine - Information Processing Consultant Madison, WI (4/2001-7/2003)
+* Information Management Consultants, Inc. - Web Developer - McLean, VA (1/1998-4/2000)
+
+### Skills
+
+* Languages: Java, Python, Perl, SQL, R, PHP, Ruby, HTML/CSS/Javascript, C, Objective-C, shell, markdown, braille
+* Frameworks: LAMP, J2EE, webapp2, rails, flask, laravel, android, shiny, AWS
+* Systems: Linux, OSX, arduino, raspberry pi, Sun
+* Databases: MySQL, SQLite, Postgres, Google Data Store
+
+### Online stuff
+
+* **Web apps running on Google App Engine**
+
+    * [http://fixamfm.appspot.com/](http://fixamfm.appspot.com/)
+
+    * [http://fixwdc.appspot.com/](http://fixwdc.appspot.com/)
+
+    * [http://wisconsinherbarium.appspot.com/](http://wisconsinherbarium.appspot.com/)
+
+* **Ruby on Rails apps running on Heroku**
+
+    * Caution: Heroku can take a minute to warm up:
+
+    * [https://aqueous-bayou-3129.herokuapp.com/carriers/](https://aqueous-bayou-3129.herokuapp.com/carriers/)
+
+* **Linux Apache Mysql Perl**
+
+    * [Wisconsin Herbarium](http://www.botany.wisc.edu/wisflora/)
+
+* **Javascript (and Offline) Web App**
+
+    * Keeps working (even after your internet connection stops working):
+
+    * [Agemaker](http://www.pitt.edu/~twm11/agemaker.html)
+
+* **iPhone Apps**
+  
+    * [Deadtapes](https://itunes.apple.com/us/app/deadtapes/id838487529?mt=8)
+
+* **Android Apps**
+
+    * [Agemaker](https://play.google.com/store/apps/details?id=edu.pitt.sdmgenetics.agemaker)
+
+    * [Aircraftcarriers](https://play.google.com/store/apps/details?id=com.jimsuplee.aircraftcarriers)
+
+    * [Civilwargenerals](https://play.google.com/store/apps/details?id=com.jimsuplee.civilwargenerals)
+
+    * [Deadlyrics](https://play.google.com/store/apps/details?id=com.jimsuplee.deadlyrics)
+
+    * [Deadquotes](https://play.google.com/store/apps/details?id=com.jimsuplee.deadquotes)
+
+    * [Deadshowfinder](https://play.google.com/store/apps/details?id=com.jimsuplee.deadshowfinder)
+
+    * [Disastersworldwide](https://play.google.com/store/apps/details?id=com.jimsuplee.disastersworldwide)
+
+    * [Femaleastronauts](https://play.google.com/store/apps/details?id=com.jimsuplee.femaleastronauts)
+
+    * [Fighterjets](https://play.google.com/store/apps/details?id=com.jimsuplee.fighterjets)
+
+    * [Fixwdc](https://play.google.com/store/apps/details?id=com.jimsuplee.fixwdc)
+
+    * [Laotzutaotehking](https://play.google.com/store/apps/details?id=com.jimsuplee.laotzutaotehking)
+
+    * [Nuclides](https://play.google.com/store/apps/details?id=com.jimsuplee.nuclide)
+
+    * [Recordlabels](https://play.google.com/store/apps/details?id=com.jimsuplee.recordlabels)
+
+    * [Scottishwhiskydistilleries](https://play.google.com/store/apps/details?id=com.jimsuplee.scottishwhiskydistilleries)
+
+    * [Shuttleflights](https://play.google.com/store/apps/details?id=com.jimsuplee.shuttleflights)
+
+    * [Ufosightings](http://www.amazon.com/Thomas-Maher-Ufosightings/dp/B00IPR7EL8/)
+
+* **R data package Rufosightings**
+
+    * Install it in R like this:
+
+```{r}
+library(devtools)
+install_github("botanyhelp/Rufosightings")
+library(Rufosightings)
+dim(Rufosightings)
+head(Rufosightings)
+```
+
+* **Licensing**
+
+    * Almost all of the code found here has an open source license usually found at the top of source code files. 
+
+    * Many of these applications have data that are thankfully provided by wikipedia editors and shared under this license: [https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License](https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License) [https://creativecommons.org/licenses/by-sa/3.0/us/](https://creativecommons.org/licenses/by-sa/3.0/us/)

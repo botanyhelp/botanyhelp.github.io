@@ -1,0 +1,468 @@
+## Education
+
+EDUCATION: **B.S. Chemical Engineering, Penn State 1996**
+
+Total transformation in 4.5 years. 
+
+## Certificates
+
+Enrolled in and completed these eight online [edX Platform](http://www.edx.org) courses during 2015 and 2016.  The R programming, statistics and biology courses were presented by **Rafael Irizarry, Professor of Biostatistics, Harvard T.H. Chan School of Public Health**.  Super-Earths and Life was presented by **Dimitar Sasselov, Professor of Astronomy, Harvard University**.  The biostatistics courses are based on this book, available free: [Data Analysis for the Life Sciences, Rafael A Irizarry and Michael I Love](https://leanpub.com/dataanalysisforthelifesciences) and also here on github: [github.com/genomicsclass](https://github.com/genomicsclass).  I completed six of these courses on time and with scores high enough to earn a certificate.  For two classes, ChIP-seq data analysis and DNA methylation data analysis, scores were too low to earn a certificate.  Detailed performance information are shown below for all completed courses.  
+
+* PH525.1x: Statistics and R for the Life Sciences [pdf](/images/PH525_1xProgressedX_1.pdf) [png](/images/PH525_1xProgressedX_1.png)
+
+* PH525.2x: Introduction to Linear Models and Matrix Algebra [pdf](/images/PH525_2xProgressedX_2.pdf) [png](/images/PH525_2xProgressedX_2.png)
+
+* PH525.4x: Introduction to Bioconductor [pdf](/images/PH525_4xProgressedX_4.pdf) [png](/images/PH525_4xProgressedX_4.png)
+
+* PH525.5x Case Study: RNA-seq data analysis [pdf](/images/PH525_5xProgressedX_5.pdf) [png](/images/PH525_5xProgressedX_5.png)
+
+* PH525.6x Case Study: Variant Discovery and Genotyping [pdf](/images/PH525_6xProgressedX_6.pdf) [png](/images/PH525_6xProgressedX_6.png)
+
+* PH525.7x Case Study: ChIP-seq data analysis [pdf](/images/PH525_7xProgressedX_7.pdf) [png](/images/PH525_7xProgressedX_7.png)
+
+* PH525.8x Case study: DNA methylation data analysis [pdf](/images/PH525_8xProgressedX_8.pdf) [png](/images/PH525_8xProgressedX_8.png)
+
+* SPU30x: Super-Earths and Life [pdf](/images/SPU30xProgressedX.pdf) [png](/images/SPU30xProgressedX.png)
+
+## Experience
+
+* (09/2016 - 06/2017) McCrossin - Bellefonte, PA 
+* (07/2010 - 09/2016) Center For Craniofacial and Dental Genetics - Pittsburgh, PA 
+* (01/2006 - 07/2010) University of Wisconsin Botany - Madison, WI 
+* (08/2004 - 06/2005) Penn State Computer Science and Engineering - State College, PA 
+* (04/2001 - 07/2003) University of Wisconsin Family Medicine - Madison, WI 
+* (01/1998 - 04/2000) Information Management Consultants, Inc. - McLean, VA 
+* (12/1996 - 07/1997) Ye Olde College Diner - State College, PA
+
+## Programming
+
+### C
+
+* iOS7 Objective-C iPhone App Deadtapes is available on the Apple App Store:
+
+    * [https://itunes.apple.com/us/app/deadtapes/id838487529?mt=8](https://itunes.apple.com/us/app/deadtapes/id838487529?mt=8)
+
+    * It works very similarly to the Deadshowfinder Android app and helps you find out exactly which show your tape was made from.  
+
+* iOS7 Objective-C iPhone App Nuclides
+
+    * The **Nuclides iPhone App** was constructed using Objective-C in xCode using iOS7 in February 2014.  This application behaves very similarly to the **Nuclides Android app** available on Google Play.  The Nuclides iPhone App is **not available** on the Apple App Store.
+
+    * [(code on github)](https://github.com/botanyhelp/Nuclides_ios_objc)
+
+
+### Java
+
+* Android Apps each show screenshots and links to:
+
+    * Google Play Store application listing
+
+    * Code on github
+
+    * Youtube video of application
+
+* Agemaker
+
+    * [Agemaker](https://play.google.com/store/apps/details?id=edu.pitt.sdmgenetics.agemaker)
+
+![Agemaker Logo by Sarah Neff](/images/Agemaker320x480_200.png)
+
+* Aircraftcarriers
+
+    * [Aircraftcarriers](https://play.google.com/store/apps/details?id=com.jimsuplee.aircraftcarriers),  [(code on github)](https://github.com/botanyhelp/aircraftcarriers),  [(youtube)](https://www.youtube.com/watch?v=WO-8MDZRbEU)
+
+![Aircraftcarriers Logo](/images/aircraftcarriers3_200.png)
+
+
+
+* Civil War Generals
+
+    * [Civilwargenerals](https://play.google.com/store/apps/details?id=com.jimsuplee.civilwargenerals),  [(code on github)](https://github.com/botanyhelp/civilwargenerals)
+
+![Civil War Generals Logo](/images/civilwargeneralsphone_200.png)
+
+* Deadlyrics
+
+    * [Deadlyrics](https://play.google.com/store/apps/details?id=com.jimsuplee.deadlyrics),  [(youtube)](https://www.youtube.com/watch?v=zWSKiJfrhwE)
+
+![Deadlyrics Logo](/images/deadlyrics500x500_200.png)
+
+
+
+* Deadquotes
+
+    * [Deadquotes](https://play.google.com/store/apps/details?id=com.jimsuplee.deadquotes),  [(code on github)](https://github.com/botanyhelp/deadquotes),  [(youtube)](https://www.youtube.com/watch?v=Vn9rlqiyMAc)
+
+![Deadquotes Logo](/images/deadquotesphone_200.png)
+
+* Deadshowfinder
+
+    * [Deadshowfinder](https://play.google.com/store/apps/details?id=com.jimsuplee.deadshowfinder),  [(code on github)](https://github.com/botanyhelp/deadshowfinder),  [(youtube)](https://www.youtube.com/watch?v=aZ4PLrBQZBM)
+
+![Deadshowfinder Logo](/images/deadshowfinderseven_200.png)
+
+
+
+* Disasters Worldwide
+
+    * [Disastersworldwide](https://play.google.com/store/apps/details?id=com.jimsuplee.disastersworldwide),  [(code on github)](https://github.com/botanyhelp/disastersworldwide),  [(youtube)](https://www.youtube.com/watch?v=dndl9Ro8jAU)
+
+![Disasters Worldwide Logo](/images/disastersworldwide7_200.png)
+
+
+
+* Female Astronauts
+
+    * [Femaleastronauts](https://play.google.com/store/apps/details?id=com.jimsuplee.femaleastronauts),  [(code on github)](https://github.com/botanyhelp/femaleastronauts)
+
+![Female Astronauts Logo](/images/valentina_tereshkova_big_200.png)
+
+* Fighterjets
+
+    * [Fighterjets](https://play.google.com/store/apps/details?id=com.jimsuplee.fighterjets),  [(code on github)](https://github.com/botanyhelp/fighterjets)
+
+![Fighterjets Logo](/images/fighterjets_200.png)
+
+* Fixwdc
+
+    * [Fixwdc](https://play.google.com/store/apps/details?id=com.jimsuplee.fixwdc)
+
+![Fixwdc Logo](/images/fixwdc_phone_200.png)
+
+* Laotzutaotehking
+
+    * [Laotzutaotehking](https://play.google.com/store/apps/details?id=com.jimsuplee.laotzutaotehking),  [(code on github)](https://github.com/botanyhelp/laotzutaotehking)
+
+![Laotzutaotehking Logo](/images/laotzuphone1_200.png)
+
+* Nuclides
+
+    * [Nuclides](https://play.google.com/store/apps/details?id=com.jimsuplee.nuclide),  [(code on github)](https://github.com/botanyhelp/nuclides)
+
+![Nuclides Logo](/images/nuclidesphone_200.png)
+
+* Record Labels
+
+    * [Recordlabels](https://play.google.com/store/apps/details?id=com.jimsuplee.recordlabels),  [(code on github)](https://github.com/botanyhelp/recordlabels),  [(youtube)](https://www.youtube.com/watch?v=Eq3At6hfc-M)
+
+![Record Labels Logo](/images/Recordlabelsscreenshot_200.png)
+
+* Scottishwhiskydistilleries
+
+    * [Scottishwhiskydistilleries](https://play.google.com/store/apps/details?id=com.jimsuplee.scottishwhiskydistilleries),  [(code on github)](https://github.com/botanyhelp/scottishwhiskydistilleries)
+
+![Scottishwhiskydistilleries Logo](/images/scottishwhiskydistilleries_phone_200.png)
+
+* Shuttle Flights
+
+    * [Shuttleflights](https://play.google.com/store/apps/details?id=com.jimsuplee.shuttleflights),  [(code on github)](https://github.com/botanyhelp/shuttleflights),  [(youtube)](https://www.youtube.com/watch?v=7hxma0XimyQ)
+
+![Shuttle Flights](/images/shuttleflights_tableseveninch_200.png)
+
+* Ufosightings
+
+    * [Ufosightings](http://www.amazon.com/Thomas-Maher-Ufosightings/dp/B00IPR7EL8/)    [(code on github)](https://github.com/botanyhelp/Ufosightings)
+
+![UFO Sightings](/images/ufosightings3_200.png)
+
+* Wwozplaylists
+
+[(code on github)](https://github.com/botanyhelp/Wwozplaylists),  [(youtube)](https://www.youtube.com/watch?v=ZUJ9HGUVyxE)
+
+
+* Herbjava
+
+    * Wisconsin Herbarium tomcat web database application.  This code, when running, will perform very similarly to the existing perl, python and OTS web servers running here:
+
+        * [http://www.botany.wisc.edu/wisflora/](http://www.botany.wisc.edu/wisflora/)
+
+        * [http://wisconsinherbarium.appspot.com/](http://wisconsinherbarium.appspot.com/)
+
+        * [http://herbarium.wisc.edu/](http://herbarium.wisc.edu/)
+
+        * [(code on github)](https://github.com/botanyhelp/Herbjava)
+
+    * This java port of the Wisconsin Herbarium application is **not running anywhere** to my knowledge.  As a standard tomcat servlet application, it is a port of existing production web servers.  The documentation on github has enough deployment details to get it started again using existing database schema.  
+
+### Javascript
+
+* Awesomplete javascript autocompletion with 28510 gene symbols
+
+    * This [short web form](http://li1077-179.members.linode.com/gene.html) selects and displays candidate gene symbols that you start typing with auto-completion.  It selects candidate gene symbols from a long list of 28510 genes (gathered from UCSC's knownCanonical table in 2016).  This javascript can be used to limit form submissions to only the list of genes that will be considered by Michigan's excellent [locuszoom](http://locuszoom.sph.umich.edu/locuszoom/) program.
+
+    * Uses Lea Verou's [Awesomplete](https://leaverou.github.io/awesomplete/) easy to use and totally awesome little javascript library.  
+
+    * [(code on github)](https://github.com/botanyhelp/Agemakeroffline/blob/master/gene.html)
+
+* UCSC Genome Browser dynamic custom track documentation
+    * Adding dynamic javascript to a UCSC genome browser custom track documentation file is possible. 
+
+    * [(code on github)](https://github.com/botanyhelp/Gbjavascript)
+
+* Agemaker age calculating offline web app
+
+    * [http://li1077-179.members.linode.com/agemaker.html](http://li1077-179.members.linode.com/agemaker.html)
+
+    * The application logic is written in Javascript and uses the entered birthdate to calculate the current age to one decimal place (for data entry).  This application is an offline web app which means that it will continue to work even after your Internet connection dies (on all modern browers). 
+
+    * The javascript, HTML5 and everything is in one file, agemaker.html:  [(code on github)](https://github.com/botanyhelp/Agemakeroffline)
+
+### Perl
+
+* Wisconsin Herbarium on Perl
+
+    * [http://www.botany.wisc.edu/wisflora/](http://www.botany.wisc.edu/wisflora/)
+
+    * [(code on github)](https://github.com/botanyhelp/Herbperl)
+
+### Php
+
+* Laravelcarriers
+
+    * Simple writable database program runnning on Laravel php web framework. 
+
+    * [(code on github)](https://github.com/botanyhelp/Laravelcarriers)
+
+* Zipper
+
+    * zipper.php is a php program that creates zip archives. 
+
+    * [(code on github)](https://github.com/botanyhelp/Zipper)
+
+    * Requires ZipArchive class be available: http://www.php.net/manual/en/class.ziparchive.php
+
+* Phpuploader
+
+    * PHP script to upload files to web server.
+
+    * [(code on github)](https://github.com/botanyhelp/Phpuploader)
+
+### Python
+
+* **Google App Engine**: Each of the GAE apps are written in python
+
+    * [http://wisconsinherbarium.appspot.com/](http://wisconsinherbarium.appspot.com/)
+
+    * [http://fixamfm.appspot.com/](http://fixamfm.appspot.com/)
+
+    * [http://fixwdc.appspot.com/](http://fixwdc.appspot.com/)
+
+* Albumartmaker
+
+    * Creates new 300x300 PNG file in the current directory: test.png.  Requires modules Image, ImageDraw, and texwrap.  Will use ImageFont if you have them (/usr/share/fonts/bitstream-vera/Vera.ttf)
+
+    * [(code on github)](https://github.com/botanyhelp/Albumartmaker)
+
+```
+python piller2.py
+```
+
+* Searchyumrepos
+
+    * Search yum software repositories for your list of software.
+
+    * [(code on github)](https://github.com/botanyhelp/Searchyumrepos)
+
+```
+python searchyumrepos.py anaconda
+```
+
+* Gmailer
+
+    * Short python script to use gmail to send email
+
+    * [(code on github)](https://github.com/botanyhelp/Gmailer)
+
+* Ucscdiskspacer
+
+    * Program to report total size, in bytes, of UCSC genome browser databases
+
+    * [(code on github)](https://github.com/botanyhelp/Ucscdiskspacer)
+
+```
+python ucsc_disk_spacer.py danRer5 hg19
+```
+
+* Ucscquery
+
+    * Python standalone program to query UCSC Genome Browser Mysql database
+
+    * Requires module MySQLdb
+
+    * Requires internet access
+
+    * [(code on github)](https://github.com/botanyhelp/Ucscquery)
+
+    * This program performs steps that can be run manually like this:
+
+```
+mysql --user=genome --host=genome-mysql.cse.ucsc.edu -A
+mysql> use mm9;
+Database changed
+mysql> select * from knownCanonical;
+```
+
+* Botitwebmaker
+
+    * Python program that generates HTML web site from a directory of image files.  Generated the HTML found here:
+
+    * [http://botit.botany.wisc.edu/](http://botit.botany.wisc.edu/)
+
+    * [(code on github)](https://github.com/botanyhelp/Botitwebmaker)
+
+* QRCode
+
+    * [(code on github)](https://github.com/botanyhelp/Qrcode)
+
+    * See [Ruby](#ruby) section for details.
+
+### R
+
+* R programming certificates
+
+    * See [certificates earned](#certificates) section. 
+
+* R package Rufosightings
+
+    * Provides UFO sightings data as an R dataframe and simple functions. 
+
+    * Use R to install and run it like this: 
+
+```{r}
+library(devtools)
+install_github("botanyhelp/Rufosightings")
+library(Rufosightings)
+ufo_byexactdate()
+ufo_byexactdate(20100704)
+dim(Rufosightings)
+Rufosightings[Rufosightings$sighted_at_year=="1950",]
+Rufosightings[Rufosightings$sighted_at_year=="1942",]$description
+Rufosightings[Rufosightings$sighted_at_year=="1942",]$duration
+Rufosightings[Rufosightings$sighted_at_year=="1942",]$shape
+levels(Rufosightings$shape)
+Rufosightings[Rufosightings$location_city==" Slickville",]
+library(dplyr)
+glimpse(Rufosightings)
+select(Rufosightings,c(location_city,shape,description)) %>% filter(location_city==" Miami") %>% filter(shape==" cigar")
+```
+
+* R package Remdat
+
+    * Provides [www.emdat.be](www.emdat.be) disasters data as an R dataframe
+
+    * Use R to install and run it like this: 
+
+```{r}
+library(devtools)
+install_github("botanyhelp/Remdata")
+library(Remdat)
+head(Remdat)
+```
+
+* R Shiny Web Application
+
+    * Uses Remdat package for data to explore in the web application. 
+
+    * [Disasters Worldwide Shiny App http://li1077-179.members.linode.com:8787/)](http://li1077-179.members.linode.com:8787/)
+
+### Ruby
+
+* Herokucarriers
+
+    * **Be patient: heroku dymo startup takes a few seconds**:
+
+    * [https://aqueous-bayou-3129.herokuapp.com/carriers/](https://aqueous-bayou-3129.herokuapp.com/carriers/)
+
+    * [(code on github)](https://github.com/botanyhelp/Herokucarriers)
+
+* QRCode
+
+    * This ruby code creates png formatted images of the QR codes. It also dumps text which can be used to create an HTML/CSS version of the QR code.
+
+    * NOTICE that the URLs are **hardcoded into the ruby**.
+
+    * NOTICE that the file qr.txt produced by the ruby is a **hardcoded input filename** in the python.
+
+    * After running the ruby program, six new 300x300 PNG-formatted images will be created in the current directory. The output HTML from the python can be dropped right into any HTML file and will display the QR codes.
+
+    * The ruby requires some modules that are probably not present. Install them with gem like this and run the whole thing like this:
+
+```
+gem install rqrcode
+gem install rqrcode_png
+ruby qrHTMLandPNGmaker.rb >> rb.txt
+python qrHTMLmaker.py >> qr_codes.html
+```
+
+### Web Content
+
+* Multilingual and right to left HTML5
+
+    * [http://li1077-179.members.linode.com/hebrew.html](http://li1077-179.members.linode.com/hebrew.html)
+
+    * [(code on github)](https://github.com/botanyhelp/Agemakeroffline/blob/master/hebrew.html)
+
+    * It displays the hebrew language and instructs the browser to present it using a right-to-left reading orientation which is proper for right to left languages like hebrew.
+
+    * Notice in your browser that it **selects** the text using the **right to left** orientation, not like with English and other left to right languages.
+* Two languages on one page
+    * One page of HTML, two languages:
+
+    * [http://li1077-179.members.linode.com/russian.html](http://li1077-179.members.linode.com/russian.html)
+
+    * [(code on github)](https://github.com/botanyhelp/Agemakeroffline/blob/master/russian.html)
+
+* Offline web application: Agemaker age calculating web page
+
+    * [http://li1077-179.members.linode.com/agemaker.html](http://li1077-179.members.linode.com/agemaker.html)
+
+    * This web application is an **offline web app** such that, when you revisit this URL later, **when you have no Internet connection**, it still works (on all modern web browsers).
+
+    * [(code on github)](https://github.com/botanyhelp/Agemakeroffline)
+
+### Cloud 
+
+* Google App Engine 
+
+    * Three python web applications on Google App Engine infrastructure:
+
+        * [Wisconsin Herbarium](http://wisconsinherbarium.appspot.com/)  [(code on github)](https://github.com/botanyhelp/Herbpythonappengine)
+        * [Fix AM FM](http://fixamfm.appspot.com/)  [(code on github)](https://github.com/botanyhelp/fixamfm)
+        * [Fix WDC](http://fixwdc.appspot.com/)
+
+* Heroku
+
+    * Ruby on Rails web application running on Heroku
+
+        * **(be patient for the five second dymo startup)**:
+        * [Aircraft Carriers](https://aqueous-bayou-3129.herokuapp.com/carriers/)  [(code on github)](https://github.com/botanyhelp/Herokucarriers)
+
+### Databases
+
+* Google Data Store
+
+    * Three App Engine web apps use the Google Data Store for persistence:
+
+        * [http://fixwdc.appspot.com/](http://fixwdc.appspot.com/)
+
+        * [http://fixamfm.appspot.com/](http://fixamfm.appspot.com/)  [(code on github)](https://github.com/botanyhelp/fixamfm)
+
+        * [http://wisconsinherbarium.appspot.com/](http://wisconsinherbarium.appspot.com/)  [(code on github)](https://github.com/botanyhelp/Herbpythonappengine)
+
+* Postgres
+
+    * Postgres database for Rails application
+
+        * This Ruby on Rails web application run on Heroku and takes a minute to start:
+
+        * [https://aqueous-bayou-3129.herokuapp.com/carriers/](https://aqueous-bayou-3129.herokuapp.com/carriers/)  [(code on github)](https://github.com/botanyhelp/Herokucarriers/)
+
+* MySQL
+
+    * [Wisconsin Herbarium](http://www.botany.wisc.edu/wisflora/)
+
+* Sqlite
+
+    * A custom sqlite database is at the heart of over half of the android apps on this page
+
+
